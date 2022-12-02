@@ -14,7 +14,7 @@
 
 <section class="descrição">
   <h2>Descrição do Projeto</h2>
-  <p>Neste projeto fiz uma releitura do atual site da UNISC, para testar conhecimentos adquiridos em curso feito pela Alura. O estudo envolvia conhecimentos em HTML e CSS.</p>
+  <p>Neste projeto fiz uma releitura do atual site da UNISC, para testar conhecimentos adquiridos em curso feito pela Alura. O estudo envolvia conhecimentos em HTML5 e CSS3.</p>
 </section>
 
 <p>Projeto em Construção</p>
@@ -58,9 +58,9 @@
 <section class="tecnologias">
   <h2>Tecnologias Utilizadas</h2>
   <ul>
-    <li>Tecnologia 1: HTML</li>
-    <li>Tecnologia 2: CSS</li>
-    <li>Tecnologia 3: Sublime Text</li>
+    <li>Tecnologia 1: HTML5</li>
+    <li>Tecnologia 2: CSS3</li>
+    <li>Tecnologia 3: Sublime Text 3</li>
     <li>Tecnologia 4: Site Coolors (https://coolors.co/)</li>
     <li>Tecnologia 5: DevTools</li>
   </ul>
