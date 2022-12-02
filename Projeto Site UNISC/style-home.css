@@ -1,0 +1,224 @@
+/*-----Header-----*/
+
+header {
+	background: #046faf;
+}
+
+/*-----Navegação-----*/
+
+.box {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.bannerunisc {
+	padding: 0px 50px;
+	width: 90%;
+	height: 90%;
+}
+
+ul {
+  display: inline-table;
+  vertical-align: top;
+  padding: 15px;
+}
+
+nav {
+	position: absolute;
+	left: 20px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #e4b400;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*-----Main-----*/
+
+main {
+	background: url(testebg2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: lighten;
+	background-attachment: fixed;
+}
+
+/*-----Missão/Visão-----*/
+
+.boxmissãoevisão {
+	display: inline-block;
+	vertical-align: top;
+	margin : 20px 1.5%;
+	padding: 5px 5px;
+	background: white;
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+
+.titulomissãoevisão {
+	font-size: 1.5em;
+	color: blue;
+	text-align: center;
+	background: #FFFFFF;
+	padding: 15px 15px 15px 15px;
+}
+
+.titulomissãoevisão:before {
+	content: "» ";
+}
+
+.titulomissãoevisão:after {
+	content: " «";
+}
+
+.missãoevisão {
+	background: #FFFFFF;
+	padding: 0 0 15px 15px;
+}
+
+.missãoevisão strong {
+	font-style: bold;
+	color: darkblue;
+}
+
+hr.solid {
+	border-top: 3px solid #bbb;
+}
+
+/*-----Titulo-----*/
+
+.titulo {
+	text-align: center;	
+	font-size: 22px;
+	text-decoration: bold;
+	margin: 3em 0 0 0;
+	text-shadow: 5px 5px 5px #001D2E;
+}
+
+.titulo p {
+	font-size: 18px;
+	margin-top: 1em;
+}
+
+/*-----Principios-----*/
+
+.boxprincipios {
+	display: flex;
+	background: #FFFFFF;
+	padding: 1em 0;
+	margin: 1em;
+	box-sizing: border-box;
+	border: 2px solid white;
+	border-radius: 15px;
+	vertical-align: middle;
+}
+
+.principios {
+	display: inline-table;
+	vertical-align: top;
+	padding: 15px;
+	font-style: italic;
+}
+
+.principiosunisc {
+	height: 50%;
+	width: 50%;
+	vertical-align: middle;
+	margin: auto 1em;
+	opacity: 1;
+	transition: 400ms;
+	box-sizing: border-box;
+	border: 0 solid transparent;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #001D2E;
+}
+
+.principiosunisc:hover {
+	opacity: 0.6;
+}
+
+/*-----Mapa-----*/
+
+.mapa {
+	margin: 1em;
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+/*-----Video-----*/
+
+.videounisc {
+	padding: 0 0 1em 0;
+	margin: 1em 1em 0 1em;
+}
+
+.videounisc p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.videounisc div {
+	margin: 1em auto;
+}
+
+/*-----Footer-----*/
+
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+}
+
+.rodape {
+	position: relative;
+	margin: 10px 10px;
+	padding: 20px 50px;
+	width: 50%;
+	height: 80%;
+}
+
+.cprg {
+	font-size: 12px; 
+	color: #FFFFFF;
+	padding: 20px 50px;
+}
+
+/*-----Mobile-----*/
+
+@media screen and (max-width: 480px) {
+	.box, .boxmissãoevisão, main, .videounisc {
+		width: auto;
+	}
+
+	.bannerunisc {
+		text-align: center;
+		width: 73%;
+	}
+
+	.principios, .principiosunisc {
+		width: 100%;
+	}
+}

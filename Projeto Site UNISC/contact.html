@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>CONTATO - UNISC</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="box">
+				<img class="bannerunisc" src="banner.png">
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Início</a></li>
+						<li><a href="courses.html">Cursos</a></li>
+						<li><a href="contact.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<h1 class="titulocontato">Entre em Contato Conosco</h1>
+
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-default" required="true" placeholder="Nome Sobrenome">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-default" required="true" placeholder="nomesobrenome@mx2.unisc.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-default" required="true" placeholder="(51)00000-0000">
+
+				<label for="msg">Deixe sua Mensagem:</label>
+				<textarea cols="70" rows="10" id="msg" class="input-default" required="true" placeholder="Sua mensagem."></textarea>
+
+				<fieldset>	
+					<legend>Como Prefere nosso Contato?</legend>
+					<label for="radio-email"><input type="radio" name="radio-contato" value="email" class="radio-email">Email</label>
+
+					<label for="radio-telefone"><input type="radio" name="radio-contato" value="telefone" class="radio-telefone">Telefone</label>
+
+					<label for="radio-wpp"><input type="radio" name="radio-contato" value="wpp" class="radio-wpp">WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox">Gostaria de Receber nossas novidades por e-mail?</label></label>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+			</form>
+			
+			<table>
+				<thead>
+					<tr>
+						<th colspan="2">Contato</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>Endereço</td>
+						<td>Av. Independência, 2293 - Universitário, Santa Cruz do Sul - RS, 96815-900</td>
+					</tr>
+
+					<tr>
+						<td>Telefone</td>
+						<td>+55 (51) 3717-7300</td>
+					</tr>
+
+					<tr>
+						<td>E-mail</td>
+						<td>info@unisc.br</td>
+					</tr>
+
+					<tr>
+						<td>WhatsApp</td>
+						<td>+55 (51) 3717-7425</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+
+		<footer>
+			<img class="rodape" src="banner.png" alt="Logo da UNISC">
+			<p class="cprg">&copy; Copyright Universidade de Santa Cruz do Sul - 2022</p>
+		</footer>
+	</body>
+</html>
+
+
