@@ -1,0 +1,133 @@
+/*-----Body-----*/
+
+body,
+header {
+    background: #046faf;
+}
+
+
+/*-----Navegação-----*/
+
+.box {
+    position: relative;
+    margin: 1em;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #046faf;
+    border-radius: 15px;
+    width: auto;
+}
+
+.bannerunisc {
+    display: block;
+    margin: auto;
+    width: 50%;
+    align-content: center;
+}
+
+
+/*
+nav {
+    position: relative;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 16px;
+}
+*/
+
+.box ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.box a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #015280;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box a:active {
+    color: #088c19;
+}
+
+
+/*-----Recursos-----*/
+
+.recursos {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.recursos li {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    margin: 20px 1%;
+    padding: 20px;
+    background-color: seashell;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.recursos h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.atividade {
+    margin: 1em 0 0 0;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    /*overflow: hidden;*/
+}
+
+.recursos li:hover {
+    border-color: #015280;
+    color: #015280;
+}
+
+.recursos li:active {
+    color: #088c19;
+    border-color: #088c19;
+}
+
+
+/*-----Footer-----*/
+
+footer {
+    text-align: center;
+    background: url(img_bg.jpg);
+}
+
+.rodape {
+    position: relative;
+    margin: 10px 10px;
+    padding: 20px 50px;
+    width: 50%;
+}
+
+.cprg {
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 20px 50px;
+}
+
+
+/*.recursos li:hover h2 {font-size: 19px;}*/

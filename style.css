@@ -1,206 +1,127 @@
-/*-----Header-----*/
+/*-----Body-----*/
 
+body,
 header {
-  background: #046faf;
+    background: #046faf;
 }
+
 
 /*-----Navegação-----*/
 
 .box {
-  position: relative;
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px 0;
+    position: relative;
+    margin: 1em;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #046faf;
+    border-radius: 15px;
+    width: auto;
 }
 
 .bannerunisc {
-  padding: 0px 50px;
-  width: 90%;
-  height: 90%;
-}
-
-ul {
-  display: inline-table;
-  vertical-align: top;
-  padding: 15px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    align-content: center;
 }
 
 nav {
-  position: absolute;
-  left: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.box ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
 }
 
 nav li {
-  display: inline;
-  margin: 0 0 0 15px;
+    display: inline;
+    padding: 16px;
 }
 
-nav a {
-  text-transform: uppercase;
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
+.box a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
 }
 
-nav a:hover {
-  color: #e4b400;
-  font-weight: bold;
-  text-decoration: underline;
+.box a:hover {
+    color: #015280;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-/*-----Main-----*/
-
-main {
-  background: #FFFFFF;
-  width: 940px;
-  margin: 0 auto;
+.box a:active {
+    color: #088c19;
 }
 
-/*-----Cursos-----*/
 
-.cursos li {
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin : 20px 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border: 2px solid #000000;
-  border-radius: 15px;
+/*-----Recursos-----*/
+
+.recursos {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.cursos h2 {
-  font-size: 26px;
-  font-weight: bold;
+.recursos li {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    margin: 20px 1%;
+    padding: 20px;
+    background-color: seashell;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    text-align: center;
 }
 
-.cozinhabrasileira {
-  width: 200px;
-  height: 200px;
+.recursos h2 {
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.gestão {
-  width: 200px;
-  height: 200px;
+.atividade {
+    margin: 1em 0 0 0;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    /*overflow: hidden;*/
 }
 
-.praticaprev {
-  width: 200px;
-  height: 200px;
+.recursos li:hover {
+    border-color: #015280;
+    color: #015280;
 }
 
-.desc {
-  font-size: 16px;
+.recursos li:active {
+    color: #088c19;
+    border-color: #088c19;
 }
 
-.preço {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
-.cursos li:hover {
-  border-color: #e4b400;
-}
-
-.cursos li:hover h2 {
-  font-size: 28px;
-}
-
-.cursos li:active {
-  border-color: #088c19;
-}
-
-/*-----Form-----*/
-
-.titulocontato {
-  text-align: center;
-  margin-top: 40px;
-  font-weight: bold;
-}
-
-form {
-  margin: 20px 0;
-}
-
-form label, form legend {
-  display: block;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.input-default {
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px 10px;
-  width: 50%;
-}
-
-.checkbox {
-  margin: 10px 0;
-}
-
-.enviar {
-  margin: 30px 235px;
-  position: 50%;
-  width: 50%; 
-  padding: 15px 0;
-  background: #044887;
-  border-color: #044887;
-  border: 1px solid #044887;
-  border-radius: 6px;
-  font-size: 18px;
-  color: #FFFFFF;
-  font-weight: bold;
-  transition: 1s background;
-  transition: 1s transform;
-  cursor: pointer;
-}
-
-.enviar:hover {
-  background: #046faf;
-  transform: scale(1.2);
-}
-
-table {
-  margin: 40px 235px;
-}
-
-thead {
-  background: #046faf;
-  font-weight: bold;
-  color: white;
-}
-
-th {
-  border: 1px solid #046faf;
-  padding: 8px 15px;
-}
-
-td {
-  border: 1px solid #000000;
-  padding: 8px 15px;
-}
 
 /*-----Footer-----*/
 
 footer {
-  text-align: center;
-  background: url(bg.jpg);
+    text-align: center;
+    background: url(img_bg.jpg);
 }
 
 .rodape {
- position: relative;
- margin: 10px 10px;
- padding: 20px 50px;
- width: 50%;
- height: 80%;
+    position: relative;
+    margin: 10px 10px;
+    padding: 20px 50px;
+    width: 50%;
 }
 
 .cprg {
-  font-size: 12px; 
-  color: #FFFFFF;
-  padding: 20px 50px;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 20px 50px;
 }
