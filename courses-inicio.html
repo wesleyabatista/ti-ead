@@ -3,22 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CURSOS (Roteiros) - UNISC</title>
+    <title>CURSOS (Menu) - UNISC</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-inicio.css">
 </head>
 
 <body>
     <header>
         <div class="box">
-            <img class="bannerunisc" src="img_ead.jpg">
-            <!-- <nav>
-                <ul>
-                    <li><a href="courses-roteiro.html">Roteiros</a></li>
-                    <li><a href="courses-pdf.html">PDFs</a></li>
-                    <li><a href="courses-video.html">Vídeos</a></li>
-                </ul>
-            </nav> -->
+            <div class="navegation">
+                <a href="https://portalvirtual.unisc.br/moodle"><img class="bannerunisc" src="img_ead.png"></a>
+                <p></p>
+                <button onclick="history.back()">Voltar</button>
+            </div>
         </div>
     </header>
 
@@ -126,9 +123,46 @@
     </main>
 
     <footer>
-        <img class="rodape" src="img_banner.png">
+        <!--
+        <div class="blocks">
+            <div class="block_1">
+                <h2>Suporte EAD:</h2>
+                <p>E-mail: suporte-ead@unisc.br</p>
+                <p>Telefone: (51) 3717-7664</p>
+                <hr>
+                <p>Visite nosso site: unisc.br/ead</p>
+            </div>
+            <div class="block_2">
+                <div class="vl"></div>
+            </div>
+            <div class="block_3">
+                <img class="imgfooter" src="img_banner.png">
+            </div>
+        </div>
         <p class="cprg">&copy; Copyright | Universidade de Santa Cruz do Sul - 2023</p>
-    </footer>
+    </footer>-->
+        <table>
+            <tr>
+                <td class="box1">
+                    <h2>Suporte EAD:</h2>
+                    <p>E-mail: suporte-ead@unisc.br</p>
+                    <p>Telefone: (51) 3717-7664</p>
+                    <hr>
+                    <p>Visite nosso site: <a href="https://www.unisc.br/ead/">unisc.br/ead</a></p>
+                </td>
+                <td class="box2">
+                    <div class="vl"></div>
+                </td>
+                <td class="box3">
+                    <img class="imgfooter" src="img_banner.png">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p class="cprg">&copy; Copyright | Universidade de Santa Cruz do Sul - 2023</p>
+                </td>
+            </tr>
+        </table>
 </body>
 
 </html>

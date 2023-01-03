@@ -11,23 +11,60 @@
 <body>
     <header>
         <div class="box">
-            <img class="bannerunisc" src="img_ead.jpg">
-            <nav>
-                <ul>
-                    <li><a href="courses-inicio.html">Voltar</a></li>
-                </ul>
-            </nav>
+            <div class="navegation">
+                <img class="bannerunisc" src="img_ead.png">
+                <button onclick="history.back()">Voltar</button>
+                <!-- <a href="courses-inicio.html">Voltar</a> -->
+            </div>
         </div>
     </header>
 
     <main>
+        <div class="conceito">
+            <!-- fazer css -->
+            <h2>O que é a Base de Dados?</h2>
+            <ul>
+                <li>Um módulo que permite criar, manter e pesquisar uma coleção de itens.</li>
+                <li>Os tipos de campo incluem caixa de seleção, menu suspenso, texto, URL, imagem e arquivos.</li>
+                <li>É possível permitir comentários e avaliar os envios dos estudantes.</li>
+                <li>Pode ser usado como um acervo colaborativo de links, livros, resenhas, referências, etc.</li>
+            </ul>
+        </div>
 
-    </main>
+        <section class="roteiro">
+            <!-- fazer css -->
+            <h2>Tutorial em Roteiro</h2>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vRxd_raqyMwB3a0WhA5gGcWbuX6XjISdwh-nSJwW11NG8wElY3T8T0cFduD6xdvILvWJloGUxcOCKB1/pub?embedded=true"></iframe>
+        </section>
 
-    <footer>
-        <img class="rodape" src="img_banner.png">
-        <p class="cprg">&copy; Copyright | Universidade de Santa Cruz do Sul - 2023</p>
-    </footer>
-</body>
+        <section class="pdf">
+            <!-- fazer css -->
+            <h2>Tutorial em PDF</h2>
+            <iframe style="border: 1px solid #777;" src="https://indd.adobe.com/embed/990484a0-01e6-4df1-9243-a89470d02090?startpage=1&allowFullscreen=true" width="525px" height="371px" frameborder="0" allowfullscreen=""></iframe> </section>
 
-</html>
+            <section class="video">
+                <!-- fazer css -->
+                <div>
+                    <iframe width="60%" height="315" src="https://www.youtube.com/embed/-rBxW7H0MWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section class="tips">
+                <!-- fazer css -->
+                <h2>Sugestões de Uso</h2>
+                <ul>
+                    <li>Linha 1</li><br>
+                    <li>Linha 2</li><br>
+                    <li>Linha 3</li><br>
+                    <li>Linha 4</li><br>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <img class="rodape" src="img_banner.png">
+            <p class="cprg">&copy; Copyright | Universidade de Santa Cruz do Sul - 2023</p>
+        </footer>
+    </body>
+
+    </html>

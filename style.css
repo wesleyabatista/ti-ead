@@ -60,50 +60,48 @@ nav li {
 }
 
 
-/*-----Recursos-----*/
+/*-----Main-----*/
 
-.recursos {
+.conceito {
     position: relative;
-    width: 940px;
-    margin: 0 auto;
+    max-width: 940px;
+    width: 50%;
+    margin: auto;
+    background-color: seashell;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
-.recursos li {
-    display: inline-block;
-    width: 22%;
-    vertical-align: top;
-    margin: 20px 1%;
+.conceito h2 {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: bold;
     padding: 20px;
-    background-color: seashell;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 15px;
     text-align: center;
 }
 
-.recursos h2 {
-    font-size: 18px;
-    font-weight: bold;
+.conceito ul {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    left: 15px;
 }
 
-.atividade {
-    margin: 1em 0 0 0;
-    max-width: 100px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
-    /*overflow: hidden;*/
+.conceito li {
+    list-style: circle;
+    margin: 5px;
 }
 
-.recursos li:hover {
-    border-color: #015280;
-    color: #015280;
+.video {
+    padding: 0 0 1em 0;
+    margin: 1em 1em 0 1em;
 }
 
-.recursos li:active {
-    color: #088c19;
-    border-color: #088c19;
+.video div {
+    margin: 1em auto;
 }
+
+.tips {}
 
 
 /*-----Footer-----*/
