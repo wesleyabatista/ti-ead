@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 /*-----Body-----*/
 
 body,
@@ -15,44 +17,58 @@ header {
 
 .navegation {
     display: flex;
+    justify-content: space-evenly;
+    width: 1080px;
+}
+
+.nav1 {
+    margin: auto;
+    width: 33%;
+    vertical-align: middle;
+}
+
+.box button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box button:hover {
+    color: #046faf;
+    cursor: pointer;
+}
+
+.box button:active {
+    color: #088c19;
+}
+
+.nav2 {
+    text-align: center;
+    vertical-align: middle;
 }
 
 .bannerunisc {
-    margin: 1em;
-    width: 12%;
+    width: 30%;
 }
 
 .bannerunisc:hover {
     cursor: pointer;
 }
 
-.box button {
-    background-color: white;
-    border: none;
-    padding: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.box button:hover {
-    color: #046faf;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.box button:active {
-    font-size: 17px;
-    color: #088c19;
+.nav3 {
+    width: 33%;
 }
 
 
 /*-----Recursos-----*/
 
 .recursos {
-    position: relative;
-    width: 940px;
+    /* position: relative; */
+    width: 1020px;
     margin: 0 auto;
 }
 
@@ -74,15 +90,6 @@ header {
     font-weight: bold;
 }
 
-.atividade {
-    margin: 1em 0 0 0;
-    max-width: 100px;
-    max-height: 100px;
-    width: auto;
-    height: auto;
-    /*overflow: hidden;*/
-}
-
 .recursos li:hover {
     border-color: #015280;
     color: #015280;
@@ -93,27 +100,32 @@ header {
     border-color: #088c19;
 }
 
+.atividade {
+    margin: 1em 0 0 0;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
 
 /*-----Footer-----*/
 
 footer {
     padding-top: 1em;
-    display: flex;
+    /*     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     background-color: #083c5c;
 }
 
 table {
-    width: 100%;
     margin: auto;
     color: white;
 }
 
 .box1 {
     text-align: right;
-    margin: auto;
-    max-height: 150px;
     vertical-align: middle;
 }
 
@@ -131,7 +143,6 @@ table {
 .box1 hr {
     /*Ok*/
     width: 1px;
-    color: transparent;
     border-color: transparent;
 }
 
@@ -144,32 +155,25 @@ table {
 .box1 a:hover {
     /*Ok*/
     text-decoration: underline;
-    color: white;
 }
 
 .box2 {
-    margin: auto;
     max-height: 100px;
 }
 
 .vl {
     border-left: 3px solid white;
     height: 100px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .box3 {
-    justify-content: left;
-    margin: auto;
     vertical-align: middle;
 }
 
 .box3 img {
-    box-align: left;
     max-width: 250px;
     max-height: 150px;
-    width: auto;
-    height: auto;
     margin-left: 5px;
 }
 
