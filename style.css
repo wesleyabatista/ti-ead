@@ -67,17 +67,17 @@ header {
 /*-----Main-----*/
 
 .work-frame {
-    background-color: rgb(246, 122, 114);
+    background-color: #f67b72;
     margin: auto;
-    width: 70%;
+    width: 100%;
     padding: 20px 0 0 0;
     font-family: 'Montserrat', sans-serif;
 }
 
 #layer {
-    background-color: rgb(99, 99, 97);
+    background-color: #636361;
     position: absolute;
-    top: 20px;
+    top: 55px;
     height: 30px;
     width: 44%;
     margin-left: auto;
@@ -88,10 +88,10 @@ header {
 
 #top {
     margin: auto;
-    width: 60%;
-    background-color: rgb(248, 245, 236);
+    width: 40%;
+    background-color: #f8f5ec;
     border-radius: 25px;
-    color: rgb(99, 99, 97);
+    color: #636361;
 }
 
 #title {
@@ -116,14 +116,14 @@ header {
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    background-color: rgb(143, 184, 170);
+    background-color: #8fb8aa;
     font-family: 'Fjalla One', sans-serif;
     font-size: 2vw;
     color: white;
 }
 
 #pt1 {
-    background-color: rgb(131, 130, 128);
+    background-color: #838280;
     color: white;
     text-align: center;
     font-size: 1.3vw;
@@ -133,7 +133,7 @@ header {
     width: 30%;
     padding: 20px 10%;
     border-right-style: solid;
-    border-color: rgb(101, 100, 98);
+    border-color: white;
 }
 
 #box2 {
@@ -145,24 +145,23 @@ header {
     margin: 30px 0px 0px 0px;
     text-align: center;
     font-size: 1.3vw;
-    background-color: rgb(248, 245, 236);
+    background-color: #f8f5ec;
 }
 
 #box3 {
     width: 30%;
     padding: 30px;
-    color: rgb(56, 56, 55);
+    color: #383837;
 }
 
 #box4 {
     padding: 30px;
-    background-color: rgb(146, 190, 175);
+    background-color: #92beaf;
     color: rgb(56, 56, 55);
-    outline: 1px solid rgb(145, 192, 176);
 }
 
 .title {
-    color: rgb(248, 245, 236);
+    color: #f8f5ec;
     font-family: 'Fjalla One', sans-serif;
     font-size: 3vw;
 }
