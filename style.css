@@ -4,7 +4,7 @@
 
 body,
 header {
-    background: #464646;
+    background: #f67b72;
     /*Azul UNISC: #046faf*/
 }
 
@@ -33,7 +33,7 @@ header {
     padding: 10px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1vw;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -79,7 +79,7 @@ header {
     position: absolute;
     top: 55px;
     height: 30px;
-    width: 44%;
+    width: 42%;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -112,7 +112,7 @@ header {
 }
 
 #split {
-    margin: 60px 0px 0px 0px;
+    margin: 60px 0px 10px 0px;
     width: 100%;
     text-align: center;
     padding: 10px 0;
@@ -136,9 +136,17 @@ header {
     border-color: white;
 }
 
+#box1 img {
+    margin: 0px 0px 20px 0px;
+}
+
 #box2 {
     width: 30%;
     padding: 20px 10%;
+}
+
+#box2 img {
+    margin: 0px 0px 20px 0px;
 }
 
 #pt2 {
@@ -157,13 +165,80 @@ header {
 #box4 {
     padding: 30px;
     background-color: #92beaf;
-    color: rgb(56, 56, 55);
+    color: #383837;
+    vertical-align: middle;
+}
+
+#box4 p {
+    padding-bottom: 1em;
+}
+
+#pt3 {
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 1.3vw;
+    background-color: #f8f5ec;
+    width: 100%;
+}
+
+#box5 {
+    background-color: #92beaf;
+    padding: 30px;
+    color: #383837;
+    vertical-align: middle;
+}
+
+#video {
+    margin-top: 20px;
+}
+
+#box6 {
+    width: 40%;
+    padding: 30px;
+    color: #383837;
+    left: 30px;
+}
+
+#box6 li {
+    margin: 0px 0px 30px 15%;
+    list-style-type: circle;
+    text-align: left;
+}
+
+#box6 p {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5vw;
+}
+
+#pt3_1 {
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 1.3vw;
+    width: 100%;
+    color: black;
+}
+
+#box6_1 {
+    color: #383837;
+    vertical-align: middle;
+}
+
+#box6_1 a {
+    color: #383837;
+}
+
+#box6_2 {
+    width: 40%;
+    padding: 30px;
+    color: #383837;
+    left: 30px;
+    vertical-align: middle;
 }
 
 .title {
     color: #f8f5ec;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 
@@ -182,40 +257,40 @@ table {
     color: white;
 }
 
-.box1 {
+.footbox1 {
     text-align: right;
     vertical-align: middle;
 }
 
-.box1 h2 {
+.footbox1 h2 {
     /*Ok*/
     font-weight: bold;
     margin: 0px 5px 0px 0px;
 }
 
-.box1 p {
+.footbox1 p {
     /*Ok*/
     margin: 0px 5px 3px 0px;
 }
 
-.box1 hr {
+.footbox1 hr {
     /*Ok*/
     width: 1px;
     border-color: transparent;
 }
 
-.box1 a {
+.footbox1 a {
     /*Ok*/
     text-decoration: none;
     color: white;
 }
 
-.box1 a:hover {
+.footbox1 a:hover {
     /*Ok*/
     text-decoration: underline;
 }
 
-.box2 {
+.footbox2 {
     max-height: 100px;
 }
 
@@ -225,11 +300,11 @@ table {
     /* vertical-align: middle; */
 }
 
-.box3 {
+.footbox3 {
     vertical-align: middle;
 }
 
-.box3 img {
+.footbox3 img {
     max-width: 250px;
     max-height: 150px;
     margin-left: 5px;
