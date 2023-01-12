@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CURSOS (Menu) - UNISC</title>
+    <title>Tutoriais Moodle - UNISC</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style-inicio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
             <table class="navegation">
                 <tr>
                     <td class="nav1">
-                        <button onclick="history.back()">Voltar</button>
+                        <button href="index.php">Voltar</button>
                     </td>
                     <td class="nav2">
                         <a href="https://portalvirtual.unisc.br/moodle"><img class="bannerunisc" src="img_ead.png"></a>
