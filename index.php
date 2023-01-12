@@ -17,7 +17,6 @@
             <table class="navegation">
                 <tr>
                     <td class="nav1">
-                        <button href="index.php">Voltar</button>
                     </td>
                     <td class="nav2">
                         <a href="https://portalvirtual.unisc.br/moodle"><img class="bannerunisc" src="img_ead.png"></a>
