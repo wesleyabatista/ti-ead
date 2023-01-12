@@ -54,7 +54,7 @@
                 </li>
                 <li>
                     <h2>Fórum</h2>
-                    <a href="courses-forum.html"><img class="atividade" src="img_FÓRUM.png"></a>
+                    <a href="courses-forum.html"><img class="atividade" src="img_FORUM.png"></a>
                 </li>
                 <li>
                     <h2>Glossário</h2>
