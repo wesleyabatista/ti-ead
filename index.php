@@ -88,8 +88,8 @@
                     <a href="courses-pesquisa.html"><img class="atividade" src="img_PESQUISA.png"></a>
                 </li>
                 <li>
-                    <h2>Quadro de Notas</h2>
-                    <a href="courses-notas.html"><img class="atividade" src="img_QNOTAS.png"></a>
+                    <h2>Livro de Notas</h2>
+                    <a href="courses-notas.html"><img class="atividade" src="img_LNOTAS.png"></a>
                 </li>
                 <li>
                     <h2>Questionário</h2>
