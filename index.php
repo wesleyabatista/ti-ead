@@ -114,6 +114,31 @@
             </ul>
         </div>
     </main>
+<!--     
+    <ul class="recursos">
+        <li>
+            <h2>Atividades</h2>
+            <a href="courses-arquivo.html"><img class="atividade" src="img_ARQUIVO.png"></a>
+        </li>
+        <li>
+            <h2>Recursos</h2>
+            <a href="courses-database.html"><img class="atividade" src="img_BASE DE DADOS.png"></a>
+        </li>
+        <li>
+            <h2>Configurações Avançadas</h2>
+            <a href="courses-chat.html"><img class="atividade" src="img_CHAT.png"></a>
+        </li>
+        <li>
+            <h2>Recursos Externos</h2>
+            <a href="courses-escolha.html"><img class="atividade" src="img_ESCOLHA.png"></a>
+        </li>
+        <li>
+            <h2>Outro?</h2>
+            <a href="courses-ferramentaexterna.html"><img class="atividade" src="img_FERRAMENTA.png"></a>
+        </li>
+    </ul> 
+-->
+
 
     <footer>
         <table>
