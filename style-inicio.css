@@ -76,7 +76,6 @@ header {
 /*-----Recursos-----*/
 
 .recursos {
-    /* position: relative; */
     width: 1020px;
     margin: 0 auto;
 }
@@ -122,9 +121,6 @@ header {
 
 footer {
     padding-top: 1em;
-    /*     display: flex;
-    align-items: center;
-    justify-content: center; */
     background-color: #083c5c;
 }
 
@@ -139,30 +135,25 @@ table {
 }
 
 .box1 h2 {
-    /*Ok*/
     font-weight: bold;
     margin: 0px 5px 0px 0px;
 }
 
 .box1 p {
-    /*Ok*/
     margin: 0px 5px 3px 0px;
 }
 
 .box1 hr {
-    /*Ok*/
     width: 1px;
     border-color: transparent;
 }
 
 .box1 a {
-    /*Ok*/
     text-decoration: none;
     color: white;
 }
 
 .box1 a:hover {
-    /*Ok*/
     text-decoration: underline;
 }
 
@@ -173,7 +164,6 @@ table {
 .vl {
     border-left: 3px solid white;
     height: 100px;
-    /* vertical-align: middle; */
 }
 
 .box3 {
@@ -200,4 +190,14 @@ table {
     right: 0px;
     font-size: 12px;
     padding: 10px;
+}
+
+.spoiler {
+    text-decoration: none;
+    color: white;
+}
+
+.spoiler:hover {
+    text-decoration: underline;
+    color: #083c5c;
 }
