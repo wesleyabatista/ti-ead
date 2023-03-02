@@ -134,7 +134,8 @@
             </tr>
             <tr>
                 <td colspan="3">
-                    <p class="cprg">&copy; Copyright <a class="spoiler" href="new-index.html">|</a> Universidade de Santa Cruz do Sul - 2023</p>
+                    <a class="spoiler" href="new-index.html">-</a>
+                    <p class="cprg">&copy; Copyright | Universidade de Santa Cruz do Sul - 2023</p>
                 </td>
             </tr>
         </table>
