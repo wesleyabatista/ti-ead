@@ -196,8 +196,3 @@ table {
     text-decoration: none;
     color: #083c5c;
 }
-
-.spoiler:hover {
-    text-decoration: underline;
-    color: #083c5c;
-}
