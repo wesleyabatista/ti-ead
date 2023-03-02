@@ -101,6 +101,12 @@ header {
     color: #636361;
 }
 
+.title {
+    color: #f8f5ec;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5vw;
+}
+
 #title {
     text-align: center;
     padding: 30px;
@@ -200,53 +206,37 @@ header {
     margin-top: 20px;
 }
 
-#box6 {
+.box6 {
     width: 40%;
-    padding: 30px;
+    padding: 20px;
     color: #383837;
-    left: 30px;
+    vertical-align: middle;
 }
 
-#box6 li {
-    margin: 0px 0px 30px 15%;
-    list-style-type: circle;
-    text-align: left;
-}
-
-#box6 p {
+.box6 h1 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 2.5vw;
 }
 
 #pt3_1 {
-    margin: 30px 0px 30px 0px;
-    text-align: center;
+    margin: 25px 0em;
+}
+
+#pt3_1 p:before {
+    content: "⮞ ";
+}
+
+#pt3_1 p {
+    color: #383837;
+    margin: 20px 0px;
+    text-align: justify;
     font-size: 1.3vw;
-    width: 100%;
-    color: black;
 }
 
-#box6_1 {
-    color: #383837;
-    vertical-align: middle;
-}
-
-#box6_1 a {
-    color: #383837;
-}
-
-#box6_2 {
+#pt3_1 img {
     width: 40%;
-    padding: 30px;
-    color: #383837;
-    left: 30px;
-    vertical-align: middle;
-}
-
-.title {
-    color: #f8f5ec;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 2.5vw;
+    margin: 10px 0px 10px 20px;
+    float: right;
 }
 
 
@@ -254,9 +244,6 @@ header {
 
 footer {
     padding-top: 1em;
-    /*     display: flex;
-    align-items: center;
-    justify-content: center; */
     background-color: #083c5c;
 }
 
