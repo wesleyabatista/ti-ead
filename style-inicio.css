@@ -4,15 +4,23 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
-
-/*-----Body-----*/
-
-body,
 header {
     background: #464646;
     /*Azul UNISC: #046faf*/
+}
+
+body {
+    background: #464646;
+}
+
+footer {
+    padding-top: 1em;
+    background-color: #083c5c;
+    position: relative;
+    width: 100%;
 }
 
 
@@ -119,11 +127,6 @@ header {
 
 /*-----Footer-----*/
 
-footer {
-    padding-top: 1em;
-    background-color: #083c5c;
-}
-
 table {
     margin: auto;
     color: white;
@@ -194,5 +197,8 @@ table {
 
 .spoiler {
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #083c5c;
 }

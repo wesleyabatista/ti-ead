@@ -6,13 +6,18 @@ html {
     scroll-behavior: smooth;
 }
 
-
-/*-----Body-----*/
-
-body,
 header {
     background: #f67b72;
-    /*Azul UNISC: #046faf*/
+}
+
+body {
+    background: #f67b72;
+}
+
+footer {
+    padding-top: 1em;
+    background-color: #083c5c;
+    position: fixed;
 }
 
 
@@ -242,11 +247,6 @@ header {
 
 /*-----Footer-----*/
 
-footer {
-    padding-top: 1em;
-    background-color: #083c5c;
-}
-
 table {
     margin: auto;
     color: white;
@@ -258,30 +258,25 @@ table {
 }
 
 .footbox1 h2 {
-    /*Ok*/
     font-weight: bold;
     margin: 0px 5px 0px 0px;
 }
 
 .footbox1 p {
-    /*Ok*/
     margin: 0px 5px 3px 0px;
 }
 
 .footbox1 hr {
-    /*Ok*/
     width: 1px;
     border-color: transparent;
 }
 
 .footbox1 a {
-    /*Ok*/
     text-decoration: none;
     color: white;
 }
 
 .footbox1 a:hover {
-    /*Ok*/
     text-decoration: underline;
 }
 
@@ -292,7 +287,6 @@ table {
 .vl {
     border-left: 3px solid white;
     height: 100px;
-    /* vertical-align: middle; */
 }
 
 .footbox3 {
@@ -319,6 +313,11 @@ table {
     right: 0px;
     font-size: 12px;
     padding: 10px;
+}
+
+.spoiler {
+    text-decoration: none;
+    color: #083c5c;
 }
 
 
