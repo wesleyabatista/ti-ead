@@ -9,6 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <script>
+        $(document).ready(function() {
+            $(".back-to-top").css("display", "none");
+            $("body").scroll(function() {
+                if ($(this).scrollTop() == 0) {
+                    $(".back-to-top").css("display", "none");
+                } else {
+                    $(".back-to-top").css("display", "block");
+                }
+            });
+            $(".back-to-top").click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 800);
+            });
+        });
+    </script>
 </head>
 
 <body>
