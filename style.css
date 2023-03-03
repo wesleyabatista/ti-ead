@@ -4,6 +4,7 @@
 
 html {
     scroll-behavior: smooth;
+    zoom: 100%;
 }
 
 header {
