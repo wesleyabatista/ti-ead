@@ -4,7 +4,6 @@
 
 html {
     scroll-behavior: smooth;
-    height: 100%;
 }
 
 header {
@@ -20,11 +19,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-main {
-    min-height: 100%;
-    margin-bottom: 0;
 }
 
 footer {
