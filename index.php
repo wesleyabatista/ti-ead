@@ -35,10 +35,10 @@
                     <h2>Arquivo</h2>
                     <a href="courses-arquivo.html"><img class="atividade" src="img_ARQUIVO.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Base de Dados</h2>
                     <a href="courses-database.html"><img class="atividade" src="img_BASE DE DADOS.png"></a>
-                </li>
+                </li> -->
                 <li>
                     <h2>Chat</h2>
                     <a href="courses-chat.html"><img class="atividade" src="img_CHAT.png"></a>
@@ -55,10 +55,10 @@
                     <h2>Fórum</h2>
                     <a href="courses-forum.html"><img class="atividade" src="img_FORUM.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Glossário</h2>
                     <a href="courses-glossario.html"><img class="atividade" src="img_GLOSSARIO.png"></a>
-                </li>
+                </li> -->
                 <li>
                     <h2>H5P</h2>
                     <a href="courses-h5p.html"><img class="atividade" src="img_H5P.png"></a>
@@ -71,10 +71,10 @@
                     <h2>Lição</h2>
                     <a href="courses-licao.html"><img class="atividade" src="img_LICAO.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Livro</h2>
                     <a href="courses-livro.html"><img class="atividade" src="img_LIVRO.png"></a>
-                </li>
+                </li> -->
                 <li>
                     <h2>Página</h2>
                     <a href="courses-pagina.html"><img class="atividade" src="img_PAGINA.png"></a>
@@ -83,10 +83,10 @@
                     <h2>Pasta</h2>
                     <a href="courses-pasta.html"><img class="atividade" src="img_PASTA.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Pesquisa</h2>
                     <a href="courses-pesquisa.html"><img class="atividade" src="img_PESQUISA.png"></a>
-                </li>
+                </li> -->
                 <li>
                     <h2>Livro de Notas</h2>
                     <a href="courses-notas.html"><img class="atividade" src="img_LNOTAS.png"></a>
@@ -95,10 +95,10 @@
                     <h2>Questionário</h2>
                     <a href="courses-questionario.html"><img class="atividade" src="img_QUESTIONARIO.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Rótulo</h2>
                     <a href="courses-rotulo.html"><img class="atividade" src="img_ROTULO.png"></a>
-                </li>
+                </li> -->
                 <li>
                     <h2>Tarefa</h2>
                     <a href="courses-tarefa.html"><img class="atividade" src="img_TAREFA.png"></a>
@@ -107,10 +107,10 @@
                     <h2>URL</h2>
                     <a href="courses-url.html"><img class="atividade" src="img_URL.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Wiki</h2>
                     <a href="courses-wiki.html"><img class="atividade" src="img_WIKI.png"></a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </main>
