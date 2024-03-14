@@ -31,10 +31,10 @@
     <main>
         <div>
             <ul class="recursos">
-            <li>
+            <!-- <li>
                     <h2>Arquivo</h2>
                     <a href="courses-arquivo.html"><img class="atividade" src="img_ARQUIVO.png"></a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <h2>Base de Dados</h2>
                     <a href="courses-database.html"><img class="atividade" src="img_BASE DE DADOS.png"></a>
@@ -75,10 +75,10 @@
                     <h2>Livro</h2>
                     <a href="courses-livro.html"><img class="atividade" src="img_LIVRO.png"></a>
                 </li> -->
-                <li>
+                <!--<li>
                     <h2>Página</h2>
                     <a href="courses-pagina.html"><img class="atividade" src="img_PAGINA.png"></a>
-                </li>
+                </li>-->
                 <li>
                     <h2>Pasta</h2>
                     <a href="courses-pasta.html"><img class="atividade" src="img_PASTA.png"></a>
@@ -87,10 +87,10 @@
                     <h2>Pesquisa</h2>
                     <a href="courses-pesquisa.html"><img class="atividade" src="img_PESQUISA.png"></a>
                 </li> -->
-                <li>
+                <!-- <li>
                     <h2>Livro de Notas</h2>
                     <a href="courses-notas.html"><img class="atividade" src="img_LNOTAS.png"></a>
-                </li>
+                </li>-->
                 <li>
                     <h2>Questionário</h2>
                     <a href="courses-questionario.html"><img class="atividade" src="img_QUESTIONARIO.png"></a>
@@ -99,14 +99,14 @@
                     <h2>Rótulo</h2>
                     <a href="courses-rotulo.html"><img class="atividade" src="img_ROTULO.png"></a>
                 </li> -->
-                <li>
+                <!--<li>
                     <h2>Tarefa</h2>
                     <a href="courses-tarefa.html"><img class="atividade" src="img_TAREFA.png"></a>
-                </li>
-                <li>
+                </li>-->
+                <!--<li>
                     <h2>URL</h2>
                     <a href="courses-url.html"><img class="atividade" src="img_URL.png"></a>
-                </li>
+                </li>-->
                 <!-- <li>
                     <h2>Wiki</h2>
                     <a href="courses-wiki.html"><img class="atividade" src="img_WIKI.png"></a>
