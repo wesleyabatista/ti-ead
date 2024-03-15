@@ -79,10 +79,10 @@
                     <h2>Página</h2>
                     <a href="courses-pagina.html"><img class="atividade" src="img_PAGINA.png"></a>
                 </li>-->
-                <li>
+                <!-- <li>
                     <h2>Pasta</h2>
                     <a href="courses-pasta.html"><img class="atividade" src="img_PASTA.png"></a>
-                </li>
+                </li>-->
                 <!-- <li>
                     <h2>Pesquisa</h2>
                     <a href="courses-pesquisa.html"><img class="atividade" src="img_PESQUISA.png"></a>
