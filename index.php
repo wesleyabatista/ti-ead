@@ -43,14 +43,14 @@
                     <h2>Chat</h2>
                     <a href="courses-chat.html"><img class="atividade" src="img_CHAT.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Escolha</h2>
                     <a href="courses-escolha.html"><img class="atividade" src="img_ESCOLHA.png"></a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <h2>Ferramenta Externa</h2>
                     <a href="courses-ferramentaexterna.html"><img class="atividade" src="img_FERRAMENTA.png"></a>
-                </li>
+                </li> -->
                 <li>
                     <h2>Fórum</h2>
                     <a href="courses-forum.html"><img class="atividade" src="img_FORUM.png"></a>
@@ -67,10 +67,10 @@
                     <h2>Lab. de Avaliação</h2>
                     <a href="courses-labaval.html"><img class="atividade" src="img_LABAVAL.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Lição</h2>
                     <a href="courses-licao.html"><img class="atividade" src="img_LICAO.png"></a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <h2>Livro</h2>
                     <a href="courses-livro.html"><img class="atividade" src="img_LIVRO.png"></a>
