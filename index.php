@@ -51,10 +51,10 @@
                     <h2>Ferramenta Externa</h2>
                     <a href="courses-ferramentaexterna.html"><img class="atividade" src="img_FERRAMENTA.png"></a>
                 </li> -->
-                <li>
+                <!-- <li>
                     <h2>Fórum</h2>
                     <a href="courses-forum.html"><img class="atividade" src="img_FORUM.png"></a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <h2>Glossário</h2>
                     <a href="courses-glossario.html"><img class="atividade" src="img_GLOSSARIO.png"></a>
