@@ -39,10 +39,10 @@
                     <h2>Base de Dados</h2>
                     <a href="courses-database.html"><img class="atividade" src="img_BASE DE DADOS.png"></a>
                 </li> -->
-                <li>
+                <!-- <li>
                     <h2>Chat</h2>
                     <a href="courses-chat.html"><img class="atividade" src="img_CHAT.png"></a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <h2>Escolha</h2>
                     <a href="courses-escolha.html"><img class="atividade" src="img_ESCOLHA.png"></a>
