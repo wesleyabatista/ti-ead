@@ -63,10 +63,10 @@
                     <h2>H5P</h2>
                     <a href="courses-h5p.html"><img class="atividade" src="img_H5P.png"></a>
                 </li>
-                <li>
+                <!-- <li>
                     <h2>Lab. de Avaliação</h2>
                     <a href="courses-labaval.html"><img class="atividade" src="img_LABAVAL.png"></a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <h2>Lição</h2>
                     <a href="courses-licao.html"><img class="atividade" src="img_LICAO.png"></a>
