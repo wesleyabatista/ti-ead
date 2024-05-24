@@ -91,10 +91,10 @@
                     <h2>Livro de Notas</h2>
                     <a href="courses-notas.html"><img class="atividade" src="img_LNOTAS.png"></a>
                 </li>-->
-                <li>
+                <!-- <li>
                     <h2>Questionário</h2>
                     <a href="courses-questionario.html"><img class="atividade" src="img_QUESTIONARIO.png"></a>
-                </li>
+                </li>-->
                 <!-- <li>
                     <h2>Rótulo</h2>
                     <a href="courses-rotulo.html"><img class="atividade" src="img_ROTULO.png"></a>
